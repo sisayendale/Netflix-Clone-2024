@@ -1,19 +1,14 @@
-import { useState } from 'react'
 
-//import './App.css'
 
+import "./App.css";
+import "./index.css";
+import Home from "./Pages/Home/Home.jsx";
 function App() {
-  //const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <p>Hello world</p>
-      </div>
-     
-      
-    </>
-  )
+    <div className="App">
+      <Home />
+    </div>
+  );
 }
 
-export default App
+export default App;
