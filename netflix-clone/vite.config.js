@@ -9,12 +9,17 @@ export default defineConfig({
     react(),
     envcomatible(),
     replace({
-      "process.env": JSON.stringify(process.env),
       "process.env.REACT_APP_API_KEY": JSON.stringify(
         process.env.REACT_APP_API_KEY
       ),
-      preventAssignment: true,
     }),
+    //replace({
+    // "process.env": JSON.stringify(process.env),
+    //"process.env.REACT_APP_API_KEY": JSON.stringify(
+    //  process.env.REACT_APP_API_KEY
+    // ),
+    //preventAssignment: true,
+    //}),
   ],
 });
 
