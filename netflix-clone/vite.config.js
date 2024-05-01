@@ -13,6 +13,11 @@ export default defineConfig({
         process.env.REACT_APP_API_KEY
       ),
     }),
+    // replace({
+    //   "process.env.REACT_APP_API_KEY": JSON.stringify(
+    //     process.env.REACT_APP_API_KEY
+    //   ),
+    // }),
     //replace({
     // "process.env": JSON.stringify(process.env),
     //"process.env.REACT_APP_API_KEY": JSON.stringify(
